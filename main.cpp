@@ -1,28 +1,40 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
 int main()
 {
-    int n,k, p=0;
-    int T[50];
+    char str1[100];
+    char str2[100];
+    int test=0,len1,len2;
     do{
-        cin >> n >> k;
-    }
-    while ((n<1 || n>50) && n<k);
-    for (int i=1;i<=n;i++)
+    getline(cin,str1);
+    getline(cin,str2);
+    len1=strlen(str1);
+    len2=strlen(str2);}
+    while(len1 != len2);
+
+    for (int i=0; i<len1;i++)
     {
-        cin >> T[i];
+        for (int j=0; j<len2;j++)
+        {
+            if (int(str1[i])-32 == int(str2[i]) || int(str1[i]) == int(str2[i])-32){
+                test=0;
+                break;
+            }
+            if (int(str1[i]) > int(str2[i]))
+            {
+                test=1;
+                break;
+            }
+            if (int(str1[i]) < int(str2[i]))
+            {
+                test=-1;
+                break;
+            }
+        }
     }
-    for (int i=1; i<=n; i++)
-    {
-        if (T[i]>=T[k] && T[i] > 0)
-            p++;
-    }
-    cout << p;
-
-
-
-
+    cout << test;
     return 0;
 }
