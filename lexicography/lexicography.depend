@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1681861876 source:c:\users\heytham\desktop\codeforces\lexicography\main.cpp
+	<iostream>
+	<cstring>
+	<cctype>
+

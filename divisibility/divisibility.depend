@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1670431956 source:c:\users\heytham\desktop\hackerearth\divisibility\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

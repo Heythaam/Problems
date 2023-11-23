@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1695581516 source:c:\users\heytham\desktop\codeforces\string_task\main.cpp
+	<iostream>
+	<string>
+	<cctype>
+

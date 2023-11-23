@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1681837317 source:c:\users\heytham\desktop\codeforces\watermelon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1696520226 source:c:\users\heytham\desktop\codeforces\filling_shapes\main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+
